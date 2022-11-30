@@ -1,0 +1,21 @@
+{
+  "name": "directus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx directus start",
+    "bootstrap": "npx directus bootstrap",
+    "snap": "npx directus schema snapshot ./snapshot.yaml",
+    "snap:diff": "npx directus schema apply --dry-run ./snapshot.yaml",
+    "snap:apply": "npx directus schema apply ./snapshot.yaml",
+    "killnode": "taskkill /im node.exe /F"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "directus": "^9.18.1",
+    "sqlite3": "^5.1.2"
+  }
+}

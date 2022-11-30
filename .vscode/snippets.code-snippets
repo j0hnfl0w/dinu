@@ -1,0 +1,22 @@
+{
+  "New component": {
+    "scope": "vue",
+    "prefix": "com",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "const logger = useLogger('${TM_FILENAME_BASE}')",
+      "const api = useStoreApi()",
+      "const storeMain = useStoreMain()",
+      "const router = useRouter()",
+      "const route = useRoute()",
+      "const UI = useStoreUI()",
+      "</script>",
+      "",
+      "<template>",
+      "<div class=\"$0\">",
+      "</div>",
+      "</template>",
+      "",
+    ]
+  }
+}
